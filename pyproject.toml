@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "celery-practice"
+version = "0.1.0"
+description = ""
+authors = ["yehuda-margolis <yehuda@hourone.ai>"]
+readme = "README.md"
+packages = [{include = "celery_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+celery = "^5.4.0"
+redis = "^5.0.8"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+black = "^24.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
